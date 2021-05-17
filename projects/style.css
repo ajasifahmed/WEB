@@ -1,0 +1,63 @@
+.height{
+	min-height: 100vh;
+}
+.fa-js{
+	color:pink;
+}
+.fa-bootstrap{
+	color: purple;
+}
+.sect{
+	color: white;
+}
+.title-underline{
+	width: 100px;
+	height: 5px;
+	margin: 0 auto;
+}
+.height-80{
+	min-height: 80vh;
+}
+/* typwriter */
+.typewrite > .wrap
+{
+	color: white;
+	font-style: italic;
+}
+/*  */
+.header h1
+{
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	animation: tonfrom 2s linear infinite;
+	animation-direction:alternate ;
+}
+@keyframes tonfrom
+{
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+.about-img{
+background:url("images/i1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+}
+#filler{
+min-height: 50vh;
+background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("images/i1.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+#progress
+{
+background-image: url("images/i2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover 
+}
